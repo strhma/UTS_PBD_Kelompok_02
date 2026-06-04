@@ -1,4 +1,4 @@
-USE uts_pbd_kelompok_03;
+USE uts_pbd_kelompok_02;
 
 -- Input Data Dosen (2 Dosen)
 INSERT INTO dosen (kode_dosen, nama_dosen, email) VALUES

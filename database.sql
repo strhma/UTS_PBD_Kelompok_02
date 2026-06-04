@@ -1,6 +1,6 @@
 -- 1. Membuat Database sesuai format ketentuan
 CREATE DATABASE uts_pbd_kelompok_03;
-USE uts_pbd_kelompok_03;
+USE uts_pbd_kelompok_02;
 
 -- 2. Membuat Tabel Mahasiswa (Min. 20 Data)
 CREATE TABLE mahasiswa (

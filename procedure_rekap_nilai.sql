@@ -1,4 +1,4 @@
-USE uts_pbd_kelompok_03;
+USE uts_pbd_kelompok_02;
 
 
 DROP PROCEDURE IF EXISTS rekap_semua_nilai;
