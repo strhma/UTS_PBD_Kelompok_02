@@ -124,3 +124,32 @@ BEGIN
             WHEN v_akhir BETWEEN 40.00 AND 55.99 THEN SET v_grade = 'D', v_bobot = 1.00;
             ELSE SET v_grade = 'E', v_bobot = 0.00;
         END CASE;
+
+        IF v_grade IN ('A', 'A-', 'B+', 'B', 'B-', 'C+', 'C') THEN
+            SET v_status = 'LULUS';
+        ELSE
+            SET v_status = 'TIDAK LULUS';
+        END IF;
+
+        -- Pembaruan Baris Terpilih
+        UPDATE nilai_praktikum 
+        SET nilai_akhir = v_akhir, 
+            grade = v_grade, 
+            bobot = v_bobot, 
+            status_lulus = v_status
+        WHERE id_nilai = v_id;
+
+        -- Logging Data Audit Spesifik Parameter Mata Kuliah
+        INSERT INTO log_rekap_nilai (nim, kode_mk, nilai_akhir, grade, bobot, status_lulus, keterangan)
+        VALUES (v_nim, v_mk, v_akhir, v_grade, v_bobot, v_status, CONCAT('Proses Rekapitulasi Parameter MK: ', p_kode_mk));
+
+    END LOOP rekap_mk_loop;
+
+    CLOSE rekap_mk_cursor;
+
+    -- [ANGGOTA 4]: Tampilkan Jumlah Data Hasil Implicit Cursor
+    SELECT ROW_COUNT() AS jumlah_data_diproses;
+
+END$$
+
+DELIMITER ;
