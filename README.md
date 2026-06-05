@@ -109,7 +109,7 @@ Projek ini dilengkapi dengan dua fungsi utama penyimpanan perintah (*Stored Proc
 
 ---
 
-## 📸 Screenshot Hasil Program
+/database.jpeg
 
 ### 1. Data Awal Log Rekap Nilai Kosong
 ![Tabel Log Kosong di Awal](path_atau_nama_file_gambar_log_kosong.jpg)
