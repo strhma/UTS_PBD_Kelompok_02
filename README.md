@@ -117,7 +117,7 @@ Projek ini dilengkapi dengan dua fungsi utama penyimpanan perintah (*Stored Proc
 ![Hasil Jalankan Procedure](hasil_procedure.jpeg)
 
 ### 3. Tabel Nilai Praktikum Terisi Otomatis Setelah Diproses
-![Hasil Akhir Nilai Praktikum](path_atau_nama_file_gambar_nilai_praktikum_sukses.jpg)
+![Hasil Akhir Nilai Praktikum](tabel_nilai_praktikum.jpeg)
 
 ### 4. Tabel Log Rekap Nilai Menyimpan Riwayat Log Transaksi
-![Hasil Akhir Log Rekap](path_atau_nama_file_gambar_log_rekap_sukses.jpg)
+![Hasil Akhir Log Rekap](log_rekap_nilai.jpeg)
