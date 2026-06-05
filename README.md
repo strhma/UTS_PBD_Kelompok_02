@@ -109,13 +109,12 @@ Projek ini dilengkapi dengan dua fungsi utama penyimpanan perintah (*Stored Proc
 
 ---
 
-/database.jpeg
 
 ### 1. Data Awal Log Rekap Nilai Kosong
-![Tabel Log Kosong di Awal](path_atau_nama_file_gambar_log_kosong.jpg)
+![Tabel Log Kosong di Awal](database.jpeg)
 
 ### 2. Eksekusi Stored Procedure Berhasil
-![Hasil Jalankan Procedure](path_atau_nama_file_gambar_call_procedure.jpg)
+![Hasil Jalankan Procedure](hasil_procedure.jpeg)
 
 ### 3. Tabel Nilai Praktikum Terisi Otomatis Setelah Diproses
 ![Hasil Akhir Nilai Praktikum](path_atau_nama_file_gambar_nilai_praktikum_sukses.jpg)
