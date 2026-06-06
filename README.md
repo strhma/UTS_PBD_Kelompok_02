@@ -99,7 +99,6 @@ Projek ini dilengkapi dengan dua fungsi utama penyimpanan perintah (*Stored Proc
 ---
 
 ## 🤝 Pembagian Tugas Anggota Kelompok
-*(Sesuaikan dengan jumlah anggota kelompokmu yang tertera pada Halaman 11 berkas soal)*
 
 * **Anggota 1 ([Azizah Cahya])**: Bertanggung jawab penuh atas pembuatan struktur database, skema tabel, pembuatan relasi constraint, dan penyusunan file `data_awal.sql`.
 * **Anggota 2 ([Mayfaizha Zulaicha Latuconsina])**: Mengimplementasikan penulisan kode untuk bagian kalkulasi dan perhitungan nilai akhir menggunakan variabel lokal di dalam prosedur.
@@ -110,14 +109,11 @@ Projek ini dilengkapi dengan dua fungsi utama penyimpanan perintah (*Stored Proc
 ---
 
 
-### 1. Data Awal Log Rekap Nilai Kosong
-![Tabel Log Kosong di Awal](database.jpeg)
+### 1. Eksekusi Stored Procedure Berhasil
+![Hasil Jalankan Procedure](hasil_stored_procedure.jpeg)
 
-### 2. Eksekusi Stored Procedure Berhasil
-![Hasil Jalankan Procedure](hasil_procedure.jpeg)
+### 2. Tabel Nilai Praktikum
+![Hasil Akhir Nilai Praktikum](nilai_praktikum.jpeg)
 
-### 3. Tabel Nilai Praktikum Terisi Otomatis Setelah Diproses
-![Hasil Akhir Nilai Praktikum](tabel_nilai_praktikum.jpeg)
-
-### 4. Tabel Log Rekap Nilai Menyimpan Riwayat Log Transaksi
+### 3. Tabel Log Rekap Nilai
 ![Hasil Akhir Log Rekap](log_rekap_nilai.jpeg)
